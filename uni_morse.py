@@ -36,7 +36,7 @@ class Solution:
 		"""
 		morses = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
 		string = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-		morses_dict = dict(zip(string, morses))
+		morses_dict = dict(zip(string, morses)) # mapping the letter and the morse_pwd
 		answer = []
 		for i in words:
 			string_list = ""
@@ -55,4 +55,4 @@ if __name__ == '__main__':
 
 
 
-	
+

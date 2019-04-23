@@ -61,9 +61,9 @@ class Solution:
 				x += dx
 				y += dy
 			return 0
-			
-		count = 0;
-		sPoint=[Rx, Ry];
+
+		count = 0
+		sPoint = [Rx, Ry]
 		directs = [[0,1],[0,-1],[1,0],[-1,0]]
 
 		for direct in directs:
